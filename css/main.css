@@ -1,0 +1,64 @@
+body {
+    font-family: system-ui;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: lightsteelblue;
+}
+
+.jumbotron {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color: whitesmoke;
+    background-color: seagreen;
+    font-size: 30px;
+    text-align: center;
+    padding: 5vh;
+}
+
+.addSkill {
+    grid-column: 3/4;
+    grid-row: 4/4;
+    background-color: whitesmoke;
+    color: seagreen;
+    border: 1px solid seagreen;
+    font-size: 20px;
+    height: 40px;
+    width: 250px;
+}
+
+.addSkill:hover {
+    background-color: seagreen;
+    color: whitesmoke;
+}
+
+.skillInput {
+    grid-column: 2/3;
+    grid-row: 4/4;
+    background-color: whitesmoke;
+    border: 1px solid seagreen;
+    font-size: 20px;
+    color: seagreen;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+}
+
+#inputs {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    color: seagreen;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.remove {
+    color: whitesmoke;
+    background-color:red ;
+    font-family: system-ui;
+    height: 30px;
+    width: 80px;
+    justify-items: center;
+}
